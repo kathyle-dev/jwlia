@@ -1,0 +1,450 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+header{
+  float: left;
+  height: 60px;
+  width: 100%;
+  border: 1px solid black;
+}
+nav, nav ul{
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  font-size: 1.3rem;
+  color: rgb(134,130,137);
+  margin-left: 6.2%;
+}
+.applyButton{
+  background-color: rgb(51,58,66);
+  color: white;
+  padding: 0.5% 2% 0.5% 2%;
+}
+.applyBox{
+  float: left;
+  background-color: rgb(240,243,245);
+  color: rgb(134,130,137);
+  width: 100%;
+  height: 450px;
+}
+.hamburger{
+  display: none;
+  font-size: 1.3rem;
+}
+.applyText{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.applyText img{
+  width: 100%;
+  padding: 3% 30% 0 30%;
+}
+.applyText h1{
+  padding: 4% 0 0 6%;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.applyText h2{
+  font-size: 1.3rem;
+  padding: 1% 0 0 6%;
+  font-weight: lighter;
+}
+.applyText p{
+  font-size: 1rem;
+  height: auto;
+  padding: 8% 0 0 6%;
+}
+.applyText form{
+  padding: 2% 0 0 6%;
+  float: left;
+  display: inline-block;
+  width: 50%;
+  height: 55px;
+  margin: 0%;
+}
+.applyText input{
+  height: 100%;
+  width: 100%;
+}
+.applyText span{
+  float: left;
+  background-color: rgb(184,197,207);
+  border: 1px solid gray;
+  width: 10%;
+  padding: 0.5rem 6rem 0.5rem 2rem;
+  margin: 2% 0 0 4%;
+  font-size: 1.3rem;
+  color: white;
+}
+.applyImg{
+  width: 50%;
+  height: 100%;
+  padding: 5% 12% 0 12%;
+}
+.mission{
+  float: left;
+  width: 80%;
+  margin: 0 10% 0 10%;
+  height: 350px;
+  padding-top: 4%;
+}
+.mission h2{
+  float: left;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 7%;
+}
+.mission p{
+  float: left;
+  width: 50%;
+  font-size: 1.1rem;
+  padding: 0 0 3.5rem 1.3rem;
+}
+.mission span{
+  font-weight: bold;
+  border-top: 2px solid rgba(255, 0, 0, 0.5);
+  padding-top: 1rem;
+}
+.mission h3{
+  color: gray;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 1rem;
+}
+.history{
+  float: left;
+  height: auto;
+  padding-bottom: 3%;
+  width: 100%;
+  background-color: rgb(240,243,245);
+}
+.historyText{
+  float: left;
+  height: 100%;
+  width: 50%;
+  padding: 2rem 0 0 5rem;
+}
+.historyText h3{
+  font-size: 2rem;
+  font-weight: normal;
+}
+.historyText p{
+  margin-top: 1rem;
+  line-height: 2rem;
+  color: gray;
+}
+.history img{
+  float: left;
+  width: 410px;
+  height: 260px;
+  margin-left: 5%;
+}
+.history img{
+  margin-top: 3%;
+}
+.whoWeAre{
+  float: left;
+  height: auto;
+  padding-bottom: 4%;
+  width: 100%;
+}
+.whoWeAre h3{
+  float: left;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+}
+.founderBio{
+  float: left;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 2%;
+  border: 1px solid lightgray;
+}
+.founderBio img{
+  float: left;
+  width: 14rem;
+  height:19rem;
+  margin: 1.3rem 3rem 0 3rem;
+  border: 1px solid lightgray;
+}
+.founderBio h4, .founderBio p{
+  width: 90%;
+  line-height: 2rem;
+  padding-top: 1.3rem;
+}
+.founderBio p{
+  color: gray;
+}
+.foundationInfo{
+  float: left;
+  height: 325px;
+  width: 100%;
+}
+.foundationInfo section{
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+.foundation p, .simmons p{
+  float: left;
+  padding-left: 2rem;
+  width: 90%;
+  line-height: 2rem;
+  color: gray;
+}
+.foundation p{
+  padding-left: 6rem;
+}
+.foundation h3{
+  float: left;
+  padding: 1.4rem 0 1.8rem 6rem;
+  color: lightgray;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.simmons h4{
+  float: left;
+  margin: 0 0 1rem 2rem;
+  height: 4rem;
+  width: 12rem;
+}
+.simmons img{
+  width: 100%;
+  height: 100%;
+}
+.email{
+  float: left;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(186, 197, 207);
+  color: white;
+  font-size: 1.3rem;
+}
+.email p{
+  float: left;
+  width: auto;
+  margin: 1.1rem 13rem 0 13rem;
+}
+.email form{
+  float: left;
+  width: auto;
+  margin-top: 0.7rem;
+}
+.email input{
+  height: 2.5rem;
+  width: 20rem;
+}
+.email span{
+  float: left;
+  width: auto;
+  margin: 0.7rem 0 0 2rem;
+  border: 1px solid lightgray;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color: rgb(145,156,162);
+}
+footer{
+  float: left;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(145,156,162);
+}
+/* ----    MEDIA QUERIES ---- */
+@media only screen and (max-width:480px){
+  nav li, .applyImg, .applyText h2, .mission p, .history, .founderBio p, .foundationInfo, footer{
+    display: none;
+  }
+  nav li{
+    margin-left: 4%;
+  }
+  .show, .hamburger{
+    display: inline;
+  }
+  .applyBox{
+    height:325px;
+  }
+  .applyText {
+    width: 100%;
+  }
+  .applyText h1{
+    font-size: 1.4rem;
+  }
+  .applyText img{
+    padding: 3% 15% 0 15%;
+  }
+  .applyText form{
+    width: 57%;
+    height: 45px;
+    margin-top: 2%;
+  }
+  .applyText span{
+    font-size: 1rem;
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+    margin-top: 4%;
+  }
+  .mission{
+    padding-top: 9%;
+  }
+  .whoWeAre{
+    background-color: rgb(240,243,245);
+  }
+  .founderBio{
+    border: none;
+  }
+  .founderBio h4{
+    clear: both;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-left: 4%;
+  }
+  .founderBio img{
+    margin: 0.5% 1% 0 8%;
+  }
+  .email{
+    height: 120px;
+  }
+  .email p{
+    width: 100%;
+    margin-left: 11%;
+  }
+  .email input{
+    width: 9.5rem;
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+}
+@media (min-width:481px) and (max-width:700px){
+  nav li, .applyImg, .history img, .foundationInfo, .founderBio img {
+    display: none;
+  }
+  .show, .hamburger{
+    display: inline;
+  }
+  .applyBox{
+    height:425px;
+  }
+  .applyText {
+    width: 100%;
+  }
+  .mission {
+    height: 280px;
+  }
+  .mission h2{
+    padding: 1rem 0 4rem 0;
+    font-size: 1rem;
+  }
+  .mission p{
+    font-size: 0.6rem;
+    padding-bottom:2rem;
+  }
+  .mission h3{
+    font-size: 0.6rem;
+  }
+  .history{
+    height: auto;
+  }
+  .historyText{
+    width: 100%;
+    padding: 5% 5% 3% 5%;
+  }
+  .founderBio{
+    height: auto;
+  }
+  .whoWeAre{
+    height: auto;
+    margin-bottom: 8%;
+  }
+  .email{
+    height: auto;
+  }
+  .email p{
+    width: 100%;
+    margin-left: 20%;
+  }
+  .email input{
+    width: 15rem;
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+}
+@media (min-width:701px) and (max-width:1170px){
+  .applyImg{
+    display: none;
+  }
+  nav ul{
+    margin-top: 2%;
+  }
+  nav li{
+    font-size: 1rem;
+    margin-left:3.8%;
+  }
+  .applyBox{
+    height: auto;
+    padding-bottom: 4%;
+  }
+  .applyText {
+    height: 100%;
+    width: 100%;
+  }
+  .history{
+    height: auto;
+    padding-bottom: 4%;
+  }
+  .historyText{
+    width: 100%;
+    height: 100%;
+    padding: 5% 5% 0 5%;
+    margin-bottom: 2%;
+  }
+  .history img{
+    padding: 1rem 3rem 0 3rem;
+  }
+  .whoWeAre{
+    height: auto;
+    padding-bottom: 4%;
+  }
+  .founderBio{
+    height: auto;
+  }
+  .foundationInfo{
+    height: auto;
+    padding-bottom: 4%;
+  }
+  .foundationInfo section{
+    width: 100%;
+  }
+  .simmons{
+    margin-left: 4rem;
+    margin-top: 3%;
+  }
+  .email{
+    height: auto;
+    padding-bottom: 2%;
+  }
+  .email p{
+    width: auto;
+    margin:0;
+    margin: 2.5% 0 0 10%;
+  }
+  .email input{
+    width: 15rem;
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+
+}
